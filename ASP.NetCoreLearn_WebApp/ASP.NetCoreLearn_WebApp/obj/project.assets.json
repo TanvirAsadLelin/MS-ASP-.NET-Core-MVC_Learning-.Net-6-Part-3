@@ -3116,6 +3116,32 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "ASP.NetCoreLearn.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ASP.NetCoreLearn.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5"
+        },
+        "compile": {
+          "bin/placeholder/ASP.NetCoreLearn.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASP.NetCoreLearn.DataAccessLayer.dll": {}
+        }
+      },
+      "ASP.NetCoreLearn.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ASP.NetCoreLearn.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASP.NetCoreLearn.Models.dll": {}
+        }
       }
     }
   },
@@ -9649,10 +9675,21 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "ASP.NetCoreLearn.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../ASP.NetCoreLearn.DataAccessLayer/ASP.NetCoreLearn.DataAccessLayer.csproj",
+      "msbuildProject": "../ASP.NetCoreLearn.DataAccessLayer/ASP.NetCoreLearn.DataAccessLayer.csproj"
+    },
+    "ASP.NetCoreLearn.Models/1.0.0": {
+      "type": "project",
+      "path": "../ASP.NetCoreLearn.Models/ASP.NetCoreLearn.Models.csproj",
+      "msbuildProject": "../ASP.NetCoreLearn.Models/ASP.NetCoreLearn.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ASP.NetCoreLearn.DataAccessLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.5",
@@ -9691,7 +9728,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\\ASP.NetCoreLearn_WebApp\\ASP.NetCoreLearn.DataAccessLayer\\ASP.NetCoreLearn.DataAccessLayer.csproj": {
+              "projectPath": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\\ASP.NetCoreLearn_WebApp\\ASP.NetCoreLearn.DataAccessLayer\\ASP.NetCoreLearn.DataAccessLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

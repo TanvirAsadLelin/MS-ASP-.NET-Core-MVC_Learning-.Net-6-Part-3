@@ -266,3 +266,7 @@ D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebA
 D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\obj\Debug\net6.0\ASP.NetCoreLearn_WebApp.MvcApplicationPartsAssemblyInfo.cs
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\ASP.NetCoreLearn.Models.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.pdb
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\ASP.NetCoreLearn.Models.pdb

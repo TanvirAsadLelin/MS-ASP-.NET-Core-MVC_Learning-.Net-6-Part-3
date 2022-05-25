@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-namespace ASP.NetCoreLearn_WebApp.Models
+namespace ASP.NetCoreLearn.Models
 {
     public class City
     {   

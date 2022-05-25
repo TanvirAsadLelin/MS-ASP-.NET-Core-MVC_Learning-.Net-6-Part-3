@@ -1,0 +1,12 @@
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\bin\Debug\net6.0\ASP.NetCoreLearn.Models.deps.json
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\bin\Debug\net6.0\ASP.NetCoreLearn.Models.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\bin\Debug\net6.0\ASP.NetCoreLearn.Models.pdb
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\obj\Debug\net6.0\ASP.NetCoreLearn.Models.csproj.AssemblyReference.cache
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\obj\Debug\net6.0\ASP.NetCoreLearn.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\obj\Debug\net6.0\ASP.NetCoreLearn.Models.AssemblyInfoInputs.cache
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\obj\Debug\net6.0\ASP.NetCoreLearn.Models.AssemblyInfo.cs
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\obj\Debug\net6.0\ASP.NetCoreLearn.Models.csproj.CoreCompileInputs.cache
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\obj\Debug\net6.0\ASP.NetCoreLearn.Models.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\obj\Debug\net6.0\refint\ASP.NetCoreLearn.Models.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\obj\Debug\net6.0\ASP.NetCoreLearn.Models.pdb
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.Models\obj\Debug\net6.0\ref\ASP.NetCoreLearn.Models.dll

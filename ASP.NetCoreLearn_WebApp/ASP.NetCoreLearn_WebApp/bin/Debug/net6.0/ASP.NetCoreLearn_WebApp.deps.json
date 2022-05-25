@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ASP.NetCoreLearn_WebApp/1.0.0": {
         "dependencies": {
+          "ASP.NetCoreLearn.DataAccessLayer": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.5",
@@ -2261,6 +2262,22 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "ASP.NetCoreLearn.DataAccessLayer/1.0.0": {
+        "dependencies": {
+          "ASP.NetCoreLearn.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5"
+        },
+        "runtime": {
+          "ASP.NetCoreLearn.DataAccessLayer.dll": {}
+        }
+      },
+      "ASP.NetCoreLearn.Models/1.0.0": {
+        "runtime": {
+          "ASP.NetCoreLearn.Models.dll": {}
+        }
       }
     }
   },
@@ -3508,6 +3525,16 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "ASP.NetCoreLearn.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ASP.NetCoreLearn.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

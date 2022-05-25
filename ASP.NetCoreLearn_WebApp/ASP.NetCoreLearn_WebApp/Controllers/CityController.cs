@@ -1,5 +1,5 @@
-﻿using ASP.NetCoreLearn_WebApp.Data;
-using ASP.NetCoreLearn_WebApp.Models;
+﻿using ASP.NetCoreLearn.DataAccessLayer;
+using ASP.NetCoreLearn.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ASP.NetCoreLearn_WebApp.Controllers

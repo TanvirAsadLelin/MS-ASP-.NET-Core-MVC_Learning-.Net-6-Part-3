@@ -17,4 +17,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ASP.NetCoreLearn.DataAccessLayer\ASP.NetCoreLearn.DataAccessLayer.csproj" />
+  </ItemGroup>
+
 </Project>

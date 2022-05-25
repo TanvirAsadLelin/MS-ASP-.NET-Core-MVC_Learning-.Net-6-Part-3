@@ -1,0 +1,15 @@
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\obj\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.csproj.AssemblyReference.cache
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\obj\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\obj\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.AssemblyInfoInputs.cache
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\obj\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.AssemblyInfo.cs
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\obj\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\bin\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.deps.json
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\bin\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\bin\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.pdb
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\bin\Debug\net6.0\ASP.NetCoreLearn.Models.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\bin\Debug\net6.0\ASP.NetCoreLearn.Models.pdb
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\obj\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.csproj.CopyComplete
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\obj\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\obj\Debug\net6.0\refint\ASP.NetCoreLearn.DataAccessLayer.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\obj\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.pdb
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn.DataAccessLayer\obj\Debug\net6.0\ref\ASP.NetCoreLearn.DataAccessLayer.dll

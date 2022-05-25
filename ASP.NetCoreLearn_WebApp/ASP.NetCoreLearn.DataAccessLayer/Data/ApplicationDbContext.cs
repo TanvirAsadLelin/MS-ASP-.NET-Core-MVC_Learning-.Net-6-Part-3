@@ -1,7 +1,7 @@
-﻿using ASP.NetCoreLearn_WebApp.Models;
+﻿using ASP.NetCoreLearn.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ASP.NetCoreLearn_WebApp.Data
+namespace ASP.NetCoreLearn.DataAccessLayer
 {
     public class ApplicationDbContext : DbContext
     {

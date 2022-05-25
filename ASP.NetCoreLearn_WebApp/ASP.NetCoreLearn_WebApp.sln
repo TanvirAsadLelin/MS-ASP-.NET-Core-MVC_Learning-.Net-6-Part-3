@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetCoreLearn_WebApp", "ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp.csproj", "{EFEB8690-89F7-4E99-B138-EB4D80C76FBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetCoreLearn.DataAccessLayer", "ASP.NetCoreLearn.DataAccessLayer\ASP.NetCoreLearn.DataAccessLayer.csproj", "{A3A254DF-9212-4B63-9380-70FE201829C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetCoreLearn.Models", "ASP.NetCoreLearn.Models\ASP.NetCoreLearn.Models.csproj", "{64880E11-D9C8-4D6A-AA97-3E458D41BB2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EFEB8690-89F7-4E99-B138-EB4D80C76FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFEB8690-89F7-4E99-B138-EB4D80C76FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFEB8690-89F7-4E99-B138-EB4D80C76FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3A254DF-9212-4B63-9380-70FE201829C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A254DF-9212-4B63-9380-70FE201829C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A254DF-9212-4B63-9380-70FE201829C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A254DF-9212-4B63-9380-70FE201829C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64880E11-D9C8-4D6A-AA97-3E458D41BB2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64880E11-D9C8-4D6A-AA97-3E458D41BB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64880E11-D9C8-4D6A-AA97-3E458D41BB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64880E11-D9C8-4D6A-AA97-3E458D41BB2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
