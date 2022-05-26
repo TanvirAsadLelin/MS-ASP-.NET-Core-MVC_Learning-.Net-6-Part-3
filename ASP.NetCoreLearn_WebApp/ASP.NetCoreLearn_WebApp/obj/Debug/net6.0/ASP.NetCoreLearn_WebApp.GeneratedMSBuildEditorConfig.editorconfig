@@ -15,28 +15,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Views/City/AddCity.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxBZGRDaXR5LmNzaHRtbA==
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/City/AddCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxBZGRDaXR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Views/City/DeleteCity.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxEZWxldGVDaXR5LmNzaHRtbA==
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/City/DeleteCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxEZWxldGVDaXR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Views/City/EditCity.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxFZGl0Q2l0eS5jc2h0bWw=
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/City/EditCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxFZGl0Q2l0eS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Views/City/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/City/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Visitor/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlzaXRvclxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Visitor/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlzaXRvclxWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Visitor/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlzaXRvclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Visitor/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlzaXRvclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Views/Shared/Error.cshtml]

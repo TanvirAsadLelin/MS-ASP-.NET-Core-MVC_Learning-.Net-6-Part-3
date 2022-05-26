@@ -9,11 +9,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace ASP.NetCoreLearn_WebApp.Migrations
+namespace ASP.NetCoreLearn.DataAccessLayer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20220525090109_AddCityToDatabase")]
-    partial class AddCityToDatabase
+    partial class AddCityToDatabase 
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

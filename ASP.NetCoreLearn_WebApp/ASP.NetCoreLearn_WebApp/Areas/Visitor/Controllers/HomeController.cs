@@ -3,7 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace ASP.NetCoreLearn_WebApp.Controllers
-{
+{   
+    [Area("Visitor")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

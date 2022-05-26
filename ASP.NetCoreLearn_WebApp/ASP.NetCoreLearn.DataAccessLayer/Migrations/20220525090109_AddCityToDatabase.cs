@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ASP.NetCoreLearn_WebApp.Migrations
+namespace ASP.NetCoreLearn.DataAccessLayer.Migrations
 {
     public partial class AddCityToDatabase : Migration
     {
