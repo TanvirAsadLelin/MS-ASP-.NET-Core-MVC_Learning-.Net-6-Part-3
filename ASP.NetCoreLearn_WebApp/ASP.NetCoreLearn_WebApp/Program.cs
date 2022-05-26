@@ -1,11 +1,14 @@
 
 using ASP.NetCoreLearn.DataAccessLayer;
+using ASP.NetCoreLearn.DataAccessLayer.Infrastructure.IRepository;
+using ASP.NetCoreLearn.DataAccessLayer.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {

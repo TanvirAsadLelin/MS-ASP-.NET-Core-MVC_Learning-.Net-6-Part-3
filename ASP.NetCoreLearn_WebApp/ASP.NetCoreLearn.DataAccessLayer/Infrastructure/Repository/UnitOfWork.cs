@@ -1,5 +1,4 @@
 ﻿using ASP.NetCoreLearn.DataAccessLayer.Infrastructure.IRepository;
-using ASP.NetCoreLearn.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,17 +7,20 @@ using System.Threading.Tasks;
 
 namespace ASP.NetCoreLearn.DataAccessLayer.Infrastructure.Repository
 {
-    public class CityRepository : Repository<City>, ICityRepository
-    {    
+    public class UnitOfWork : IUnitOfWork
+    {
         private ApplicationDbContext _context;
-        public CityRepository(ApplicationDbContext context) : base(context)
+        public ICityRepository City { get; private set; }
+        public UnitOfWork(ApplicationDbContext context)
         {
-            _context = context; 
+            _context = context;
+            City = new CityRepository(context);
         }
+       
 
-        public void Update(City city)
+        public void Save()
         {
-            _context.Cities.Update(city);
+           _context.SaveChanges();
         }
     }
 }

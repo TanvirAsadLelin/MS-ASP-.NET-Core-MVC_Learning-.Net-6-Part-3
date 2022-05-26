@@ -37,12 +37,12 @@ namespace ASP.NetCoreLearn.DataAccessLayer.Infrastructure.Repository
 
         public IEnumerable<T> GetAll()
         {
-           
+           return _dbSet.ToList();
         }
 
         public T GetT(Expression<Func<T, bool>> predicate)
         {
-            throw new NotImplementedException();
+           return _dbSet.Where(predicate).FirstOrDefault();
         }
     }
 }

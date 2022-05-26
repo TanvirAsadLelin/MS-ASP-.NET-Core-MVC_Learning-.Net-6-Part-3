@@ -1,4 +1,5 @@
 ﻿using ASP.NetCoreLearn.DataAccessLayer;
+using ASP.NetCoreLearn.DataAccessLayer.Infrastructure.IRepository;
 using ASP.NetCoreLearn.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,16 +7,16 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
 {
     public class CityController : Controller
     {
-        private ApplicationDbContext _Context;
+        private IUnitOfWork _unitOfWork;
 
-        public CityController(ApplicationDbContext context)
+        public CityController(IUnitOfWork unitOfWork)
         {
-            _Context = context;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<City> cities = _Context.Cities;
+            IEnumerable<City> cities = _unitOfWork.City.GetAll();
             return View(cities);
         }
 
@@ -34,8 +35,8 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                _Context.Cities.Add(city);
-                _Context.SaveChanges();
+                _unitOfWork.City.Add(city);
+                _unitOfWork.Save();
                 TempData["succcess"] = "New city added!";
                 return RedirectToAction("Index");
             }
@@ -54,7 +55,7 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
             {
                 return NotFound();
             }
-            var cities = _Context.Cities.Find(id);
+            var cities = _unitOfWork.City.GetT(x=>x.Id == id);
             if (cities == null)
             {
                 return NotFound();
@@ -70,8 +71,8 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                _Context.Cities.Update(city);
-                _Context.SaveChanges();
+                _unitOfWork.City.Update(city);
+                _unitOfWork.Save();
 
                 TempData["succcess"] = "Updated city Successfuly";
                 return RedirectToAction("Index");
@@ -91,7 +92,7 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
             {
                 return NotFound();
             }
-            var cities = _Context.Cities.Find(id);
+            var cities = _unitOfWork.City.GetT(x => x.Id == id);
             if (cities == null)
             {
                 return NotFound();
@@ -105,13 +106,13 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Delete(int? id)
         {
-            var cities = _Context.Cities.Find(id);
+            var cities = _unitOfWork.City.GetT(x => x.Id == id);
             if (cities == null)
             {
                 return NotFound();
             }
-            _Context.Cities.Remove(cities);
-            _Context.SaveChanges();
+            _unitOfWork.City.Delete(cities);
+            _unitOfWork.Save();
             TempData["succcess"] = "Deleted city Successfuly";
             return RedirectToAction("Index");
         }
