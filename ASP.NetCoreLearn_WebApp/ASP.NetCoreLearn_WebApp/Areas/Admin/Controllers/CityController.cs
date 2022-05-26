@@ -1,6 +1,7 @@
 ﻿using ASP.NetCoreLearn.DataAccessLayer;
 using ASP.NetCoreLearn.DataAccessLayer.Infrastructure.IRepository;
 using ASP.NetCoreLearn.Models;
+using ASP.NetCoreLearn.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ASP.NetCoreLearn_WebApp.Controllers
@@ -16,33 +17,34 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
         }
 
         public IActionResult Index()
-        {
-            IEnumerable<City> cities = _unitOfWork.City.GetAll();
-            return View(cities);
+        {   
+            CityViewModel cityViewModel = new CityViewModel();  
+           cityViewModel.cities = _unitOfWork.City.GetAll();
+            return View(cityViewModel);
         }
 
         //Add city start
 
-        [HttpGet]
-        public IActionResult AddCity()
-        {
-            return View();
-        }
+        //[HttpGet]
+        //public IActionResult AddCity()
+        //{
+        //    return View();
+        //}
 
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult AddCity(City city)
-        {
-            if (ModelState.IsValid)
-            {
-                _unitOfWork.City.Add(city);
-                _unitOfWork.Save();
-                TempData["succcess"] = "New city added!";
-                return RedirectToAction("Index");
-            }
-            return View(city);
-        }
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public IActionResult AddCity(City city)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        _unitOfWork.City.Add(city);
+        //        _unitOfWork.Save();
+        //        TempData["succcess"] = "New city added!";
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View(city);
+        //}
 
 
         //Add city End
@@ -50,29 +52,38 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
 
         //Edit city start
         [HttpGet]
-        public IActionResult EditCity(int? id)
+        public IActionResult AddCityUpdate(int? id)
         {   
+            CityViewModel cityViewModel = new CityViewModel();
             if(id == null || id == 0)
             {
-                return NotFound();
+                return View(cityViewModel);
             }
-            var cities = _unitOfWork.City.GetT(x=>x.Id == id);
-            if (cities == null)
+            else
             {
-                return NotFound();
+                var EditCity = _unitOfWork.City.GetT(x=>x.Id == id);    
+                if (EditCity == null)
+                {
+                    return NotFound();
+                }
+
+                else
+                {
+                    return View(EditCity);
+                }
+                
             }
 
-            return View(cities);
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult EditCity(City city)
+        public IActionResult AddCityUpdate(CityViewModel cityViewModel)
         {
             if (ModelState.IsValid)
             {
-                _unitOfWork.City.Update(city);
+                _unitOfWork.City.Add(cityViewModel.City);
                 _unitOfWork.Save();
 
                 TempData["succcess"] = "Updated city Successfuly";

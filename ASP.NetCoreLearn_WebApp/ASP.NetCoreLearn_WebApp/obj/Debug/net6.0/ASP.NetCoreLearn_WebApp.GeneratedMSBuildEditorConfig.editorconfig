@@ -15,16 +15,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/City/AddCity.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxBZGRDaXR5LmNzaHRtbA==
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/City/AddCityUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxBZGRDaXR5VXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/City/DeleteCity.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxEZWxldGVDaXR5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/City/EditCity.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxFZGl0Q2l0eS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/City/Index.cshtml]

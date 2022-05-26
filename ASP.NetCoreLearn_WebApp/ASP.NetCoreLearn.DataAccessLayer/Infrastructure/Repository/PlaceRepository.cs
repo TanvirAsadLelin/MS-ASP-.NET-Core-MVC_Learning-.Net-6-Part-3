@@ -18,7 +18,20 @@ namespace ASP.NetCoreLearn.DataAccessLayer.Infrastructure.Repository
 
         public void Update(Place place)
         {
-            _context.Places.Update(place);
+            //_context.Places.Update(place);
+
+            var placeDb = _context.Places.FirstOrDefault(x => x.PlaceId == place.PlaceId);
+            if (placeDb == null)
+            {
+                placeDb.PlaceName = place.PlaceName;
+                placeDb.PlaceDescription = place.PlaceDescription;
+                placeDb.PlaceVisitRate = place.PlaceVisitRate;
+
+                if(place.PlaceImageURL != null)
+                {
+                    placeDb.PlaceImageURL = place.PlaceImageURL;
+                }
+            }
         }
     }
 }

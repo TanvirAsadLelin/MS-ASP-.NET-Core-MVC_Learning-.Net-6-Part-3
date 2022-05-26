@@ -1,4 +1,4 @@
-﻿
+﻿@model ASP.NetCoreLearn.Models.ViewModels.CityViewModel
 @{
     ViewData["Title"] = "Index";
 }
@@ -10,7 +10,7 @@
         </div>
 
         <div class="col-6 text-end">
-            <a class=" btn btn-primary" asp-action="AddCity" asp-controller="City"><i class="bi bi-plus-circle"></i>&nbsp; Add New City</a>
+            <a class=" btn btn-primary" asp-action="AddCityUpdate" asp-controller="City"><i class="bi bi-plus-circle"></i>&nbsp; Add New City</a>
         </div>
 
     </div>
@@ -44,7 +44,7 @@
                         </thead>
 
                         <tbody>
-                            @foreach (var item in Model)
+                            @foreach (var item in Model.cities)
                             {
                                 <tr>
                                     <td>
@@ -64,7 +64,7 @@
                                     </td>
 
                                     <td role="group">
-                                        <a asp-action="EditCity" asp-controller="City" asp-route-id="@item.Id" style="text-decoration: none;"><i class="bi bi-pencil-square"></i> &nbsp; Edit &nbsp;&nbsp;&nbsp;</a>
+                                        <a asp-action="AddCityUpdate" asp-controller="City" asp-route-id="@item.Id" style="text-decoration: none;"><i class="bi bi-pencil-square"></i> &nbsp; Edit &nbsp;&nbsp;&nbsp;</a>
                                         <a asp-action="DeleteCity" asp-controller="City" asp-route-id="@item.Id" style="text-decoration: none;"><i class="bi bi-x-circle"></i> &nbsp; Delete</a>
                                     
                                     </td>

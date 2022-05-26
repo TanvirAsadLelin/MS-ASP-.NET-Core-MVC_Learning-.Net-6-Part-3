@@ -18,7 +18,16 @@ namespace ASP.NetCoreLearn.DataAccessLayer.Infrastructure.Repository
 
         public void Update(City city)
         {
-            _context.Cities.Update(city);
+          //  _context.Cities.Update(city);
+          var cityDb = _context.Cities.FirstOrDefault(x => x.Id == city.Id);
+            if (cityDb == null)
+            {
+                cityDb.Name = city.Name;
+                cityDb.Population = city.Population;    
+                cityDb.AreaSize = city.AreaSize;    
+                cityDb.BuildDate = city.BuildDate;
+            }
+
         }
     }
 }
