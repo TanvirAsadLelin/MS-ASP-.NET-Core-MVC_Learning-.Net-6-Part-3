@@ -4,7 +4,8 @@ using ASP.NetCoreLearn.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ASP.NetCoreLearn_WebApp.Controllers
-{
+{   
+    [Area("Admin")]
     public class CityController : Controller
     {
         private IUnitOfWork _unitOfWork;

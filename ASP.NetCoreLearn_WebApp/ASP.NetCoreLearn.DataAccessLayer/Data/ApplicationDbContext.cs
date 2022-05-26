@@ -11,5 +11,6 @@ namespace ASP.NetCoreLearn.DataAccessLayer
         }
 
         public DbSet<City> Cities { get; set; }
+        public DbSet<Place> Places { get; set; }
     }
 }

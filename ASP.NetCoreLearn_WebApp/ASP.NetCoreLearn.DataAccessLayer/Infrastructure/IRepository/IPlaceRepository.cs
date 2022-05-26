@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ASP.NetCoreLearn.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace ASP.NetCoreLearn.DataAccessLayer.Infrastructure.IRepository
 {
-    public interface IUnitOfWork
+    public interface IPlaceRepository: IRepository<Place>
     {
-        ICityRepository City{ get; }
-        IPlaceRepository Place{ get; }
-        void Save();
+        void Update(Place place); 
     }
 }

@@ -11,10 +11,14 @@ namespace ASP.NetCoreLearn.DataAccessLayer.Infrastructure.Repository
     {
         private ApplicationDbContext _context;
         public ICityRepository City { get; private set; }
+
+        public IPlaceRepository Place { get; private set; }
+
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
             City = new CityRepository(context);
+            Place = new PlaceRepository(context);   
         }
        
 
