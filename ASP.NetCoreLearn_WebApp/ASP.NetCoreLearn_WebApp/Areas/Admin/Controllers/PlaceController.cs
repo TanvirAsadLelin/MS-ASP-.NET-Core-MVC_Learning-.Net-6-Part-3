@@ -52,24 +52,25 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
 
         //Edit city start
         [HttpGet]
-        public IActionResult AddCityUpdate(int? id)
+        public IActionResult AddPlaceUpdate(int? id)
         {   
-            CityViewModel cityViewModel = new CityViewModel();
-            if(id == null || id == 0)
+         
+            PlaceViewModel placeVM = new PlaceViewModel();
+            if (id == null || id == 0)
             {
-                return View(cityViewModel);
+                return View(placeVM);
             }
             else
             {
-                cityViewModel.City = _unitOfWork.City.GetT(x=>x.Id == id);    
-                if (cityViewModel.City == null)
+                placeVM.Place = _unitOfWork.Place.GetT(x=>x.PlaceId == id);
+                if (placeVM.Place == null)
                 {
                     return NotFound();
                 }
 
                 else
                 {
-                    return View(cityViewModel);
+                    return View(placeVM);
                 }
                 
             }
@@ -79,21 +80,21 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult AddCityUpdate([Bind]CityViewModel cityViewModel)
+        public IActionResult AddPlaceUpdate([Bind] PlaceViewModel placeVM)
         {
             if (ModelState.IsValid)
             {   
 
-                if(cityViewModel.City.Id == 0)
+                if(placeVM.Place.PlaceId == 0)
                 {
-                    _unitOfWork.City.Add(cityViewModel.City);
-                    TempData["succcess"] = "Created city Successfuly";
+                    _unitOfWork.Place.Add(placeVM.Place);
+                    TempData["succcess"] = "Add Place Successfuly";
                 }
 
                 else
                 {
-                    _unitOfWork.City.Update (cityViewModel.City);
-                    TempData["succcess"] = "Updated city Successfuly";
+                    _unitOfWork.Place.Update (placeVM.Place);
+                    TempData["succcess"] = "Update Place Successfuly";
                 }
              
                 _unitOfWork.Save();
@@ -110,34 +111,34 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
 
         //Delete city start
         [HttpGet]
-        public IActionResult DeleteCity(int? id)
+        public IActionResult DeletePlace(int? id)
         {
             if (id == null || id == 0)
             {
                 return NotFound();
             }
-            var cities = _unitOfWork.City.GetT(x => x.Id == id);
-            if (cities == null)
+            var places = _unitOfWork.Place.GetT(x => x.PlaceId == id);
+            if (places == null)
             {
                 return NotFound();
             }
 
-            return View(cities);
+            return View(places);
         }
 
 
-        [HttpPost, ActionName("DeleteCity")]
+        [HttpPost, ActionName("DeletePlace")]
         [ValidateAntiForgeryToken]
         public IActionResult Delete(int? id)
         {
-            var cities = _unitOfWork.City.GetT(x => x.Id == id);
-            if (cities == null)
+            var places = _unitOfWork.Place.GetT(x => x.PlaceId == id);
+            if (places == null)
             {
                 return NotFound();
             }
-            _unitOfWork.City.Delete(cities);
+            _unitOfWork.Place.Delete(places);
             _unitOfWork.Save();
-            TempData["succcess"] = "Deleted city Successfuly";
+            TempData["succcess"] = "Deleted Place Successfuly";
             return RedirectToAction("Index");
         }
 

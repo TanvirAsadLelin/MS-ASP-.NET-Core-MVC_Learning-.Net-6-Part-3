@@ -27,6 +27,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/Place/AddPlaceUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGxhY2VcQWRkUGxhY2VVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/My GitHub/MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3/ASP.NetCoreLearn_WebApp/ASP.NetCoreLearn_WebApp/Areas/Admin/Views/Place/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGxhY2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

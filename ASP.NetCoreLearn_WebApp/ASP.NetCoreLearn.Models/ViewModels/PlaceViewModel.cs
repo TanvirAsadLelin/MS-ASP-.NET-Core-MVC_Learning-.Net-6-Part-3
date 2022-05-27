@@ -8,6 +8,7 @@ namespace ASP.NetCoreLearn.Models.ViewModels
 {
     public class PlaceViewModel
     {
+        public Place Place { get; set; } = new Place(); 
         public IEnumerable<Place> Places { get; set; }
     }
 }
