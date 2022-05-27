@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace ASP.NetCoreLearn.Models.ViewModels
 {
-    public class CityViewModel
+    public class PlaceViewModel
     {
-        public City City { get; set; } = new City();
-        public IEnumerable<City> Cities { get; set; }  = new List<City>();
+
     }
 }
