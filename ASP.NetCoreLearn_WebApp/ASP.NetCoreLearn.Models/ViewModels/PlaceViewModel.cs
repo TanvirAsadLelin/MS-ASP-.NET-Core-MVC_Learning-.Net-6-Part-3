@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,9 @@ namespace ASP.NetCoreLearn.Models.ViewModels
     public class PlaceViewModel
     {
         public Place Place { get; set; }
-        public IEnumerable<Place> Places { get; set; } = new List<Place>(); 
-
+        [ValidateNever]
+        public IEnumerable<Place> Places { get; set; } = new List<Place>();
+        [ValidateNever]
         public IEnumerable<SelectListItem> Cities { get; set; }
 
         

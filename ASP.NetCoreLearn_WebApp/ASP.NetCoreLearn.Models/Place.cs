@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -16,8 +17,11 @@ namespace ASP.NetCoreLearn.Models
         public string PlaceDescription { get; set; }
         [Required]
         public double PlaceVisitRate { get; set; }
+
+        [ValidateNever]
         public string PlaceImageURL { get; set; }
         public int CityId { get; set; }
+        [ValidateNever]
         public City CityName { get; set; }
     }
 }

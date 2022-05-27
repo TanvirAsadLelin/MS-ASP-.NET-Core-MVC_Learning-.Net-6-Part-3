@@ -11,10 +11,12 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
     public class PlaceController : Controller
     {
         private IUnitOfWork _unitOfWork;
+       // private IWebHostBuilder _hostingEnvironment;
 
         public PlaceController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
+           // _hostingEnvironment = hostingEnvironment;
         }
 
         public IActionResult Index()
@@ -90,23 +92,39 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult AddPlaceUpdate([Bind] PlaceViewModel placeVM)
+        public IActionResult AddPlaceUpdate(PlaceViewModel placeVM,IFormFile? file)
         {
             if (ModelState.IsValid)
-            {   
+            {
+                string newFileName = String.Empty;
+                if (file != null)
+                {   
+
+                    Guid guid = Guid.NewGuid();   
+                    string extention = Path.GetExtension(file.FileName);  
+                    newFileName = guid.ToString() + extention;
+                    string uploadDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\PlaceImages",newFileName);
+
+                    using (var fileStream = new FileStream(uploadDir, FileMode.Create))
+                    {
+                        file.CopyTo(fileStream);
+                    }
+                    placeVM.Place.PlaceImageURL = @"\PlaceImages\" + newFileName;
+
+
+                }
 
                 if(placeVM.Place.PlaceId == 0)
                 {
                     _unitOfWork.Place.Add(placeVM.Place);
-                    TempData["succcess"] = "Add Place Successfuly";
                 }
-
                 else
                 {
-                    _unitOfWork.Place.Update (placeVM.Place);
-                    TempData["succcess"] = "Update Place Successfuly";
+
                 }
-             
+              
+
+
                 _unitOfWork.Save();
                 
                 return RedirectToAction("Index");
