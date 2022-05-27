@@ -7,20 +7,20 @@ using Microsoft.AspNetCore.Mvc;
 namespace ASP.NetCoreLearn_WebApp.Controllers
 {   
     [Area("Admin")]
-    public class CityController : Controller
+    public class PlaceController : Controller
     {
         private IUnitOfWork _unitOfWork;
 
-        public CityController(IUnitOfWork unitOfWork)
+        public PlaceController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {   
-            CityViewModel cityViewModel = new CityViewModel();  
-           cityViewModel.Cities = _unitOfWork.City.GetAll();
-            return View(cityViewModel);
+            PlaceViewModel placeVM = new PlaceViewModel();
+            placeVM.Places = _unitOfWork.Place.GetAll();
+            return View(placeVM);
         }
 
         //Add city start

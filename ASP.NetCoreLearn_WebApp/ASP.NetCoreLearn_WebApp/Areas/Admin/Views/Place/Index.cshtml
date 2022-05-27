@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<div class="container p-4">
+    <div class="row p-3">
+        <div class="col-6">
+                 <h1 class="text-primary">List Of Place</h1>
+        </div>
+
+        <div class="col-6 text-end">
+            <a class=" btn btn-primary" asp-action="AddCityUpdate" asp-controller="Place"><i class="bi bi-plus-circle"></i>&nbsp; Add New Place</a>
+        </div>
+
+    </div>
+
+</div>
+
+   <table class="table table-borderd table-striped" style="width:100%">
+
+                        <thead>
+                            <tr>
+                                <th>
+                                    Place Name
+                                </th>
+
+                                 <th>
+                                    Place Description
+                                </th>
+                                 <th>
+                                    Place Visit Rate
+                                </th>
+                                 <th>
+                                    Place ImageURL
+                                </th>
+
+                                <th>
+                                   City
+                                </th>
+                            </tr>
+
+                        </thead>
+
+        </table>

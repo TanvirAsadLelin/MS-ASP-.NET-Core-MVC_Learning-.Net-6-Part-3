@@ -8,6 +8,6 @@ namespace ASP.NetCoreLearn.Models.ViewModels
 {
     public class PlaceViewModel
     {
-
+        public IEnumerable<Place> Places { get; set; }
     }
 }
