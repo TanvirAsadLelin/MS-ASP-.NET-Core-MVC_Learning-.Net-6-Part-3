@@ -3,6 +3,7 @@ using ASP.NetCoreLearn.DataAccessLayer.Infrastructure.IRepository;
 using ASP.NetCoreLearn.Models;
 using ASP.NetCoreLearn.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ASP.NetCoreLearn_WebApp.Controllers
 {   
@@ -55,7 +56,16 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
         public IActionResult AddPlaceUpdate(int? id)
         {   
          
-            PlaceViewModel placeVM = new PlaceViewModel();
+            PlaceViewModel placeVM = new PlaceViewModel()
+            {
+                Place = new(),
+                Cities = _unitOfWork.City.GetAll().Select(x=> 
+                new SelectListItem()
+                {
+                    Text = x.Name,
+                    Value = x.Id.ToString()
+                })
+            };
             if (id == null || id == 0)
             {
                 return View(placeVM);

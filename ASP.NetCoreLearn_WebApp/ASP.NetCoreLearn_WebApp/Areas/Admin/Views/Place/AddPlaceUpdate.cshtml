@@ -4,7 +4,7 @@
     <input type="hidden" asp-for="Place.PlaceId" />
       <div class="border p-3 mt-4">
           <div class="row pb-3">
-              <h2 class="text-primary">@((Model.Place == null || Model.Place.PlaceId == 0 )? "Create" : "Update") City</h2>
+              <h2 class="text-primary">@((Model.Place == null || Model.Place.PlaceId == 0 )? "Create" : "Update") Place</h2>
               <hr />
           </div>
           <div asp-validation-summary=All></div>
@@ -15,26 +15,28 @@
             <span asp-validation-for="Place.PlaceName" class="text-danger"></span>
           </div>
 
-          
-            <div class="row mb-3">
-            <label asp-for="City.Population"></label>
-            <input asp-for="City.Population" class="form-control" />
-               <span asp-validation-for="City.Population" class="text-danger"></span>
+             <div class="row mb-3">
+            <label asp-for="Place.PlaceDescription"></label>
+            <textarea asp-for="Place.PlaceDescription" class="form-control"></textarea>
+            <span asp-validation-for="Place.PlaceDescription" class="text-danger"></span>
           </div>
 
-          
-            <div class="row mb-3">
-            <label asp-for="City.AreaSize"></label>
-            <input asp-for="City.AreaSize" class="form-control" />
-               <span asp-validation-for="City.AreaSize" class="text-danger"></span>
+             <div class="row mb-3">
+            <label asp-for="Place.PlaceVisitRate"></label>
+            <input asp-for="Place.PlaceVisitRate" class="form-control" />
+            <span asp-validation-for="Place.PlaceVisitRate" class="text-danger"></span>
           </div>
 
-          
-            <div class="row mb-3">
-            <label asp-for="City.BuildDate"></label>
-            <input asp-for="City.BuildDate" class="form-control" />
-               <span asp-validation-for="City.BuildDate" class="text-danger"></span>
+
+        <div class="row mb-3">
+            <label asp-for="Place.CityId"></label>
+            <select asp-for="Place.CityId" asp-items="@Model.Cities" class="form-control" > 
+            <option selected disabled>--Select City</option>
+
+            </select>
+            <span asp-validation-for="Place.CityId" class="text-danger"></span>
           </div>
+
 
         @if(Model.Place == null || Model.Place.PlaceId == 0 )
         {

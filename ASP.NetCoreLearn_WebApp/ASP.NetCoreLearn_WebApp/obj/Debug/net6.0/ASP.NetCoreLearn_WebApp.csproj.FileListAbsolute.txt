@@ -270,3 +270,7 @@ D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebA
 D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\ASP.NetCoreLearn.Models.dll
 D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\ASP.NetCoreLearn.DataAccessLayer.pdb
 D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\ASP.NetCoreLearn.Models.pdb
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\My GitHub\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\ASP.NetCoreLearn_WebApp\ASP.NetCoreLearn_WebApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
