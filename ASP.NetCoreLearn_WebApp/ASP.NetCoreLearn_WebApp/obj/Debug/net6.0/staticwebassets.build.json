@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OEiWMe0vw9U/PARglPONjSxvETc2uN1IBnW5YTRKvOA=",
+  "Hash": "SzFdfsANUBWvLIVrxYxBxv0cJVbKfd5KnvE2iGXU+dg=",
   "Source": "ASP.NetCoreLearn_WebApp",
   "BasePath": "_content/ASP.NetCoreLearn_WebApp",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\\ASP.NetCoreLearn_WebApp\\ASP.NetCoreLearn_WebApp\\wwwroot\\PlaceImages\\1e769216-44c7-499b-85d3-c1c17a68c268.jpg",
+      "SourceId": "ASP.NetCoreLearn_WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\\ASP.NetCoreLearn_WebApp\\ASP.NetCoreLearn_WebApp\\wwwroot\\",
+      "BasePath": "_content/ASP.NetCoreLearn_WebApp",
+      "RelativePath": "PlaceImages/1e769216-44c7-499b-85d3-c1c17a68c268.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PlaceImages\\1e769216-44c7-499b-85d3-c1c17a68c268.jpg"
     }
   ]
 }

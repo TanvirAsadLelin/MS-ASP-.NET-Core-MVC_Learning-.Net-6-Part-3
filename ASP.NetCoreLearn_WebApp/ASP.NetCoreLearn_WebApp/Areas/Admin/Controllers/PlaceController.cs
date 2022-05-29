@@ -19,12 +19,25 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
            // _hostingEnvironment = hostingEnvironment;
         }
 
-        public IActionResult Index()
-        {   
-            PlaceViewModel placeVM = new PlaceViewModel();
-            placeVM.Places = _unitOfWork.Place.GetAll();
-            return View(placeVM);
+
+        #region APICALL
+        public IActionResult AllPlaces()
+        {
+          var  places = _unitOfWork.Place.GetAll();
+
+            return Json(new {data = places});   
         }
+
+            #endregion
+
+            public IActionResult Index()
+        {   
+            //PlaceViewModel placeVM = new PlaceViewModel();
+            //placeVM.Places = _unitOfWork.Place.GetAll();
+            return View();
+        }
+
+
 
         //Add city start
 
@@ -117,9 +130,11 @@ namespace ASP.NetCoreLearn_WebApp.Controllers
                 if(placeVM.Place.PlaceId == 0)
                 {
                     _unitOfWork.Place.Add(placeVM.Place);
+                    TempData["success"] = "Place added successfuly.";
                 }
                 else
                 {
+
 
                 }
               
