@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SzFdfsANUBWvLIVrxYxBxv0cJVbKfd5KnvE2iGXU+dg=",
+  "Hash": "TJ11CAZNhscL8TW9Q99BJCI4/9nJdnBB8k5UWcTEwss=",
   "Source": "ASP.NetCoreLearn_WebApp",
   "BasePath": "_content/ASP.NetCoreLearn_WebApp",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\\ASP.NetCoreLearn_WebApp\\ASP.NetCoreLearn_WebApp\\wwwroot\\js\\Place.js",
+      "SourceId": "ASP.NetCoreLearn_WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\\ASP.NetCoreLearn_WebApp\\ASP.NetCoreLearn_WebApp\\wwwroot\\",
+      "BasePath": "_content/ASP.NetCoreLearn_WebApp",
+      "RelativePath": "js/Place.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Place.js"
     },
     {
       "Identity": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning (.Net 6)-Part 3\\ASP.NetCoreLearn_WebApp\\ASP.NetCoreLearn_WebApp\\wwwroot\\js\\site.js",

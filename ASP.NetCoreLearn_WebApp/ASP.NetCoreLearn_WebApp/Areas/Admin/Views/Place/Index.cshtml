@@ -19,7 +19,7 @@
 
 </div>
 
-   <table class="table table-borderd table-striped" style="width:100%">
+   <table id="myTable" class="table table-borderd table-striped" style="width:100%">
 
                         <thead>
                             <tr>
@@ -33,15 +33,21 @@
                                  <th>
                                     Place Visit Rate
                                 </th>
-                                 <th>
+                                @* <th>
                                     Place ImageURL
                                 </th>
 
                                 <th>
                                    City
-                                </th>
+                                </th>*@
                             </tr>
 
                         </thead>
 
         </table>
+
+        @section scripts{
+            <script src="~/js/Place.js"></script>
+        }
+
+
